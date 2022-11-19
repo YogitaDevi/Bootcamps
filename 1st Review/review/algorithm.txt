@@ -1,0 +1,22 @@
+Algorithm ::
+    1) Filter only pdf, docx, jpeg files
+    Expected Result ::
+    a.pdf b.docx c.jpeg
+ 
+    2) Find a Name of all files
+    Expected Result ::
+    a.pdf ====> a
+    b.docx ====> b
+    c.jpeg ====> c
+
+    3) Create a new folder with same name as files name
+    Expected Result ::
+    a.pdf ====> a/
+    b.docx ====> b/
+    c.jpeg ====> c/
+    
+    4) Create backup folder in Desktop
+ 
+    5) Create docx, jpeg and pdf folder in backup folder
+
+    6) and the last step is Move a, b, c folder in backup folder
